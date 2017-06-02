@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="estilosform1.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="comprobaciones.js"> </script>
+<script src="plugins.js"> </script>
+</head>
+<body>
+
+  <form name="form1" id="form1" action="" method="post">
+        <div id="cab1">cabecera.png</div>
+    
+    <table>
+      <caption id="cab2"><strong>Especifíca tus datos personales:</strong></caption>
+    
+      <tr>
+        <td class="campo1">Nombre</td>
+        <td class="campo4">Apellidos</td>
+      </tr>
+      <tr>
+        <td><input type="text" size="12" class="campo2" id="nombre"></td>
+        <td><input type="text" size="12" class="campo5" id="apellidos"></td>
+      </tr>
+      
+       <tr>
+        <td class="campo3">Teléfono</td>
+        <td class="campo6">Correo Electrónico</td>
+      </tr>
+      <tr>
+        <td><input type="text" size="12" class="campo2" id="telefono"></td>
+        <td><input type="text" size="12" class="campo5" id="email"></td>
+      </tr>
+     
+      <tr>
+        <td class ="campo3">Sexo</td>
+      </tr>
+      <tr>
+        <td class="campo2"><select name="sexo" id="select" >
+        <option value="hombre" Selected>Hombre</option>
+        <option value="mujer">Mujer</option>
+        </select>
+        </td>
+      </tr>
+      
+      <tr>
+        <td><input type="button" value="Guardar" id="guardar"></td>
+      </tr>
+   
+      <tr>
+        <td colspan="2"><p id="p1"></p></td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
